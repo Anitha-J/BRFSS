@@ -1,0 +1,47 @@
+
+########################################################################
+#      Date:           Tue Oct 16 09:28:24 PDT 2018
+#    Job ID:           186683.c009
+#      User:           u20104
+# Resources:           neednodes=1:ppn=2,nodes=1:ppn=2,vmem=92gb,walltime=24:00:00
+########################################################################
+
+Checking whether there is an H2O instance running at http://localhost:54321..... not found.
+Attempting to start a local H2O server...
+  Java Version: openjdk version "1.8.0_131"; OpenJDK Runtime Environment (build 1.8.0_131-b12); OpenJDK 64-Bit Server VM (build 25.131-b12, mixed mode)
+  Starting server from /home/u20104/.local/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /home/u20104/tmp/tmpe7jbxky9
+  JVM stdout: /home/u20104/tmp/tmpe7jbxky9/h2o_u20104_started_from_python.out
+  JVM stderr: /home/u20104/tmp/tmpe7jbxky9/h2o_u20104_started_from_python.err
+  Server is running at http://127.0.0.1:54321
+Connecting to H2O server at http://127.0.0.1:54321... successful.
+--------------------------  ----------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       America/Los_Angeles
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.20.0.9
+H2O cluster version age:    14 days, 10 hours and 59 minutes
+H2O cluster name:           H2O_from_python_u20104_cbuluv
+H2O cluster total nodes:    1
+H2O cluster free memory:    43.12 Gb
+H2O cluster total cores:    24
+H2O cluster allowed cores:  24
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54321
+H2O connection proxy:
+H2O internal security:      False
+H2O API Extensions:         XGBoost, Algos, AutoML, Core V3, Core V4
+Python version:             3.6.3 final
+--------------------------  ----------------------------------------
+Parse progress: |█████████████████████████████████████████████████████████| 100%
+Parse progress: |█████████████████████████████████████████████████████████| 100%
+Parse progress: |█████████████████████████████████████████████████████████| 100%
+drf Model Build progress: |███████████████████████████████████████████████| 100%
+drf Grid Build progress: |████████████████████████████████████████████████| 100%
+H2O session _sid_86ec closed.
+
+########################################################################
+# End of output for job 186683.c009
+# Date: Wed Oct 17 08:51:47 PDT 2018
+########################################################################
+
